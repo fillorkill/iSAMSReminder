@@ -144,7 +144,7 @@ with smtplib.SMTP(host, port) as smtp:
             msg = EmailMessage()
             msg['Subject'] = "Missing Registration Alert - " + start
             msg['From'] = sender
-            msg['To'] = 'student.affairs@kings-school.com.cn'
+            msg['To'] = 'xxx@school.com'
             msg.set_content("STUDENT AFFAIRS COPY\r\nThis email is sent automatically to all form tutors in your class/group twice a day and contains missing registration data in the morning and boarding in the afternoon.\r\n" 
             +"A full copy is sent to student affairs for record keeping.\r\n"
             + "The date and times below represent the missing registration period. This is typically the first registration in the morning and for boarding, it is the boarding registration period. \r\n"
